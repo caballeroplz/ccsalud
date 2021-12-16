@@ -1,0 +1,148 @@
+.blanco-stl{
+	background-color: white;
+	color: white;
+	border-color: white;
+	border-bottom-style: none;
+	border-right-style: none;
+	padding-top:50px;
+	
+}
+
+/* -- Header --*/
+.img-bg{
+	background-image: url("../img/background-web.png");
+}
+.menu-stl{
+	color: #FFFFFF;
+}
+
+.sombra{
+	padding-top: 10px;
+    float:center;
+    width:90%;
+
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3),0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.p{
+	text-align: justify;
+}
+/*Estilo menú*/
+.navbar-stl{
+	background-image: url("../img/bg-menu.png");
+	background-repeat: repeat-x;
+	background-color: #CE4F54;
+	
+}
+/*Estilo panel naranja azulado */
+.panel-izq-stl{
+	color: #FFFFFF;
+	background-color: #1F6E40;
+	background-image: url("../img/bg-izq.png");
+	background-repeat: repeat-x;
+}
+.panel-der-stl{
+	color: #FFFFFF;
+	background-color: #256B8B;
+	background-image: url("../img/bg-dch.png");
+	background-repeat: repeat-x;
+}
+
+.inscripcion-stl{
+	color: #000000;
+	background-color: #E9D2B6;
+	background-image: url("../img/bg-bienvenidos.png");
+	background-repeat: repeat-x;
+}
+.panel-heading-stl{
+	background-color: #89B283;
+}
+.panel-heading-acordeon{
+	background-color: #89B283;
+}
+.panel-interior-stl{
+	color: #000000;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	background-color: #FFFFFF;
+	background-image: url("../img/bg-bienvenidos.png");
+	background-repeat: repeat-x;
+}
+
+/*Estilo botones*/
+.btn-stl{
+	background-image: url("../img/bg-menu.png");
+	background-repeat: repeat-x;
+}
+/* Formato acordeón */
+.heading-acordeon{
+	color:white;
+	background-color: #00507B;
+}
+
+/*Formato separador*/
+hr { 
+   border-top: 2px solid #1F6E40; 
+   border-bottom: 2px solid #256B8B; 
+   border-left:none; 
+   border-right:none; 
+   height: 6px;
+   width: 100%;
+ } 
+
+/*Formato parrafos*/
+
+/*Formato menú usuario*/
+.menuu{
+	background-color: #FFD4B2;
+	color: black;
+	border-color : #FFA062;
+}
+
+
+
+
+
+#barraaceptacion {
+    display:none;
+    position:fixed;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    padding-bottom:20px;
+    width:100%;
+    text-align:center;
+    min-height:130px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color:#fff;
+    z-index:99999;
+}
+ 
+.inner {
+    width:100%;
+    position:absolute;
+    padding-left:5px;
+    font-family:verdana;
+    font-size:12px;
+    top:30%;
+}
+ 
+.inner a.ok {
+    padding:4px;
+    color:#00ff2e;
+    text-decoration:none;
+}
+ 
+.inner a.info {
+    padding-left:5px;
+    text-decoration:none;
+    color:#faff00;
+}
+
+
+
+
+
